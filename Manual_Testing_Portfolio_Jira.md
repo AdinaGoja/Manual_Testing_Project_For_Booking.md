@@ -132,20 +132,31 @@ The following test conditions were found: <br>
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
-[Uploading Jira.csv…]()
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here 
+[Jira.csv](https://github.com/user-attachments/files/15945452/Jira.csv)
 
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
+<ul>
+  <li>The test plan, including the scope, objectives, strategy, and schedule, must be reviewed and approved by all relevant stakeholders.
+</li>
+  <li>Detailed functional and non-functional requirements must be documented, reviewed, and approved.</li>
+  <li>All test environments (development, staging, and production-like) must be fully configured and stable.</li>
+  <li>Necessary hardware, software, network configurations, and permissions must be in place.</li>
+  <li>Test data should mimic real-world scenarios as closely as possible.</li>
+  <li>All test cases should be written, reviewed, and approved, covering functional, non-functional, and edge scenarios.</li>
+  <li>A robust defect tracking system (e.g., JIRA, Bugzilla) should be set up and accessible to the entire team.</li>
+</ul>
 
-**(inserati lista de elemente care sunt evaluate in etapa de implementare)**
 
 <h3>1.6. Test Execution </h3>
 
-Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
+Test cases are executed on the created test Cycle summary: **Booking.com Cycle Summary**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here:
+
+**(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
 
 The following is a summary of the bugs that have been found
 **(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
