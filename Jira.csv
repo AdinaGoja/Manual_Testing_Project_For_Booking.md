@@ -1,0 +1,260 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Relates),Inward issue link (Relates),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Approvals),Custom field (Asset type),Custom field (Asset type),Custom field (Backout plan),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Department),Custom field (Department),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (Issue color),Custom field (Locked forms),Custom field (Major incident),Custom field (Open forms),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Priority),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Responders),Custom field (Root cause),Satisfaction rating,Custom field (Satisfaction date),Custom field (Severity),Custom field (Source),Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Total forms),Custom field (Urgency),Custom field (Vulnerability),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Status Category,Status Category Changed
+The user should not be able to have under 16 years old,PTAG-25,18752,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 22:51,6/16/2024 1:26,6/23/2024 20:13,,,0,"Objective: Develop and integrate a robust and user-friendly Personal Details section within the Account Settings page, allowing users to view and update their personal information securely and efficiently.
+
+The Personal Details section is a critical component of the Account Settings, providing users with the ability to manage their core personal information. This task involves designing the user interface, implementing the front-end functionality, and integrating it with the back-end services to handle data retrieval and updates.
+
+[Personal details|https://account.booking.com/mysettings/personal?aid=304142]
+
+[Update your information and find out how it's used.|https://account.booking.com/mysettings/personal?aid=304142]
+
+[Manage personal details|https://account.booking.com/mysettings/personal?aid=304142]
+
+* Users can view their current personal information upon accessing the Account Settings page.
+* All editable fields can be modified after clicking the ""Edit"" button.
+* Client-side validation prevents the submission of invalid data and provides clear error messages.
+* Changes are correctly saved to the database after clicking the ""Save"" button, with appropriate success/error messages displayed.
+* The email address field is displayed but not editable.
+* All text is correctly localized based on the user's language settings.
+* The interface is fully navigable and operable using only a keyboard.
+* Screen readers can effectively convey all information and state changes.
+* Personal information is only accessible to the authenticated user it belongs to.
+
+
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-23,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1edcb7b8,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01all:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 22:51
+Verify that you can combine multiple filters,PTAG-22,18749,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 21:47,6/16/2024 1:26,6/23/2024 20:13,,,0,"As a user of the http://Booking.com  desktop application, I want to be able to filter my search results based on various criteria so that I can quickly find accommodations that meet my specific needs and preferences.
+
+The filter functionality allows users to refine their search results by applying various criteria. This feature is crucial for helping users narrow down their choices from a potentially large number of options. The filters should be intuitive, responsive, and provide immediate feedback as they are applied.
+
+Key Components:
+
+# Filter Categories:
+#* Price range (per night)
+#* Star rating (1 to 5 stars)
+#* Review score (e.g., 8+, 9+)
+#* Property type (hotel, apartment, hostel, etc.)
+#* Neighborhood/location within the searched city
+#* Amenities (Wi-Fi, parking, pool, etc.)
+#* Accessibility features
+# User Interface:
+#* Clearly visible and accessible filter section on the search results page
+#* Intuitive controls (checkboxes, sliders, dropdowns) for each filter type
+#* Visual indication of which filters are currently active
+# Functionality:
+#* Real-time updating of results as filters are applied (without requiring a page reload)
+#* Ability to select multiple options within a filter category (where applicable)
+#* Option to clear all filters or individual filters easily
+# Performance:
+#* Filters should apply quickly, typically within 1-2 seconds
+#* The number of matching properties should update promptly
+# Mobile Responsiveness:
+#* Filters should be easily accessible and usable on smaller screens
+#* Consider a collapsible or overlay design for mobile views
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-20,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3847edbb,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01akx:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 21:47
+Verify that users can filter hotel search results by price range,PTAG-21,18743,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 20:43,6/16/2024 1:26,6/23/2024 20:13,,,0,"This test case focuses on verifying the price range filter functionality, which is a crucial feature for users to find hotels within their budget. The test steps cover the typical user flow and ensure the filter works as expected across different price ranges.
+
+*Preconditions:*
+
+# The [http://Booking.com|http://Booking.com|smart-link]  desktop application is installed and accessible on the test machine.
+# The tester has a stable internet connection.
+# Test data for hotel search results is available, including hotels with a wide range of prices.
+# The filter functionality allows users to refine their search results by applying various criteria. This feature is crucial for helping users narrow down their choices from a potentially large number of options. The filters should be intuitive, responsive, and provide immediate feedback as they are applied.
+Key Components:
+## Filter Categories:
+##* Price range (per night)
+##* Star rating (1 to 5 stars)
+##* Review score (e.g., 8+, 9+)
+##* Property type (hotel, apartment, hostel, etc.)
+##* Neighborhood/location within the searched city
+##* Amenities (Wi-Fi, parking, pool, etc.)
+##* Accessibility features
+## User Interface:
+##* Clearly visible and accessible filter section on the search results page
+##* Intuitive controls (checkboxes, sliders, dropdowns) for each filter type
+##* Visual indication of which filters are currently active
+## Functionality:
+##* Real-time updating of results as filters are applied (without requiring a page reload)
+##* Ability to select multiple options within a filter category (where applicable)
+##* Option to clear all filters or individual filters easily
+## Performance:
+##* Filters should apply quickly, typically within 1-2 seconds
+##* The number of matching properties should update promptly
+## Mobile Responsiveness:
+##* Filters should be easily accessible and usable on smaller screens
+##* Consider a collapsible or overlay design for mobile views
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-20,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@435df31f,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01ajl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 20:43
+Verify that search results update when modifying the number of nights,PTAG-19,18724,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 18:54,6/16/2024 1:27,6/23/2024 20:13,,,0,"As a user of the [http://Booking.com|http://Booking.com|smart-link]   desktop application, I want to be able to search for accommodations based on my preferences so that I can find suitable options for my travel needs.
+
+The search functionality is a core feature of our [http://Booking.com|http://Booking.com|smart-link]   desktop application. It allows users to find accommodations by specifying various criteria such as location, check-in and check-out dates, number of guests, and room preferences. The search should be intuitive, fast, and provide accurate results.
+
+Key Components:
+
+# Search Bar:
+#* Prominent and easily accessible on the main screen
+#* Autocomplete functionality for location input
+#* Clear placeholder text (e.g., ""Where are you going?"")
+# Date Selection:
+#* Interactive calendar for selecting check-in and check-out dates
+#* Ability to input dates manually
+#* Validation to ensure check-out date is after check-in date
+#* Display of the total number of nights selected
+# Guest and Room Selection:
+#* Options to specify the number of adults, children, and infants
+#* Ability to select the number of rooms required
+#* Age input for children (for age-based pricing and restrictions)
+# Search Button:
+#* Clearly visible and labeled (e.g., ""Search"")
+#* Disabled until the minimum required information is provided (location and dates)
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-15,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@3b8b61d1,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01afd:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 18:54
+Sort Search results by price,PTAG-18,18720,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 18:24,6/16/2024 20:05,6/23/2024 20:13,,,0,"As a user of the http://Booking.com   desktop application, I want to be able to search for accommodations based on my preferences so that I can find suitable options for my travel needs.
+
+The search functionality is a core feature of our http://Booking.com   desktop application. It allows users to find accommodations by specifying various criteria such as location, check-in and check-out dates, number of guests, and room preferences. The search should be intuitive, fast, and provide accurate results.
+
+Key Components:
+
+# Search Bar:
+#* Prominent and easily accessible on the main screen
+#* Autocomplete functionality for location input
+#* Clear placeholder text (e.g., ""Where are you going?"")
+# Date Selection:
+#* Interactive calendar for selecting check-in and check-out dates
+#* Ability to input dates manually
+#* Validation to ensure check-out date is after check-in date
+#* Display of the total number of nights selected
+# Guest and Room Selection:
+#* Options to specify the number of adults, children, and infants
+#* Ability to select the number of rooms required
+#* Age input for children (for age-based pricing and restrictions)
+# Search Button:
+#* Clearly visible and labeled (e.g., ""Search"")
+#* Disabled until the minimum required information is provided (location and dates)
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-15,PTAG-27,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2477f561,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01aeh:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 18:24
+Search with invalid destination,PTAG-17,18717,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 17:57,6/16/2024 20:01,6/23/2024 20:13,,,0,"As a user of the [http://Booking.com|http://Booking.com|smart-link]   desktop application, I want to be able to search for accommodations based on my preferences so that I can find suitable options for my travel needs.
+
+The search functionality is a core feature of our [http://Booking.com|http://Booking.com|smart-link]   desktop application. It allows users to find accommodations by specifying various criteria such as location, check-in and check-out dates, number of guests, and room preferences. The search should be intuitive, fast, and provide accurate results.
+
+Key Components:
+
+# Search Bar:
+#* Prominent and easily accessible on the main screen
+#* Autocomplete functionality for location input
+#* Clear placeholder text (e.g., ""Where are you going?"")
+# Date Selection:
+#* Interactive calendar for selecting check-in and check-out dates
+#* Ability to input dates manually
+#* Validation to ensure check-out date is after check-in date
+#* Display of the total number of nights selected
+# Guest and Room Selection:
+#* Options to specify the number of adults, children, and infants
+#* Ability to select the number of rooms required
+#* Age input for children (for age-based pricing and restrictions)
+# Search Button:
+#* Clearly visible and labeled (e.g., ""Search"")
+#* Disabled until the minimum required information is provided (location and dates)
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-15,PTAG-26,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@51b8687,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01adt:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 17:57
+Verify search functionality with valid inputs,PTAG-16,18715,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/15/2024 17:45,6/16/2024 1:28,6/23/2024 20:13,,,0,"As a user of the http://Booking.com  desktop application, I want to be able to search for accommodations based on my preferences so that I can find suitable options for my travel needs.
+
+The search functionality is a core feature of our http://Booking.com  desktop application. It allows users to find accommodations by specifying various criteria such as location, check-in and check-out dates, number of guests, and room preferences. The search should be intuitive, fast, and provide accurate results.
+
+Key Components:
+
+# Search Bar:
+#* Prominent and easily accessible on the main screen
+#* Autocomplete functionality for location input
+#* Clear placeholder text (e.g., ""Where are you going?"")
+# Date Selection:
+#* Interactive calendar for selecting check-in and check-out dates
+#* Ability to input dates manually
+#* Validation to ensure check-out date is after check-in date
+#* Display of the total number of nights selected
+# Guest and Room Selection:
+#* Options to specify the number of adults, children, and infants
+#* Ability to select the number of rooms required
+#* Age input for children (for age-based pricing and restrictions)
+# Search Button:
+#* Clearly visible and labeled (e.g., ""Search"")
+#* Disabled until the minimum required information is provided (location and dates)
+
+Preconditions:
+
+* The user has a registered account with a valid email and password.
+* The user is not currently logged in.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-15,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@79b3a8bf,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01add:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/15/2024 17:45
+The user should not be able to login if he fill the password field with invalid data,PTAG-13,18708,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/14/2024 21:04,6/14/2024 21:04,6/23/2024 20:13,,,0,"h1. Sign in for a Booking account
+
+ 
+
+[Go to the Sign in page|https://login.yahoo.com/account/create?.lang=en-US&.intl=us&.src=yhelp].
+
+# Enter your info in the required fields.
+# Click *Continue* and follow the onscreen prompts to verify your mobile phone number.
+
+h1. Info required to create a Booking account
+
+ 
+
+ 
+
+* *Email address* -
+* *Password* - [Creating a strong, unique password|https://in.help.yahoo.com/kb/mobile/creating-strong-unique-password-sln3012.html] is crucial for protecting your account.
+
+h2. ",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-5,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1a2b6163,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01abt:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/14/2024 21:04
+The user should be able to sign in after the mandatory fields are completed with valid data,PTAG-12,18707,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/14/2024 20:50,6/14/2024 20:50,6/23/2024 20:13,,,0,"h1. Sign in for a Booking account
+
+ 
+
+[Go to the Sign in page|https://login.yahoo.com/account/create?.lang=en-US&.intl=us&.src=yhelp].
+
+# Enter your info in the required fields.
+# Click *Continue* and follow the onscreen prompts to verify your mobile phone number.
+
+h1. Info required to create a Booking account
+
+ 
+
+* *Email address* -
+* *Password* - [Creating a strong, unique password|https://in.help.yahoo.com/kb/mobile/creating-strong-unique-password-sln3012.html] is crucial for protecting your account.
+
+h2. ",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-5,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7eb9c85b,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01abl:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/14/2024 20:50
+The user should be able to sign up when all the mandatory fields are completed,PTAG-11,18704,Test,Backlog,PTAG,Proiect_TMTA17_Adina_Goja,software,ITF Classes,712020:8ab46ca2-145f-4a56-a13e-bb85ee67acea,,Medium,,,,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,6/14/2024 14:04,6/14/2024 20:14,6/23/2024 20:13,,,0,"h1. Sign up for a Booking account
+
+ 
+
+[Go to the Sign up page|https://login.yahoo.com/account/create?.lang=en-US&.intl=us&.src=yhelp].
+
+# Enter your info in the required fields.
+# Click *Continue* and follow the onscreen prompts to verify your mobile phone number.
+
+h1. Info required to create a Booking account
+
+ 
+
+ 
+
+* *Name* - If you share content with others, your name usually appears with it.
+* *Email address* -
+* *Password* - [Creating a strong, unique password|https://in.help.yahoo.com/kb/mobile/creating-strong-unique-password-sln3012.html] is crucial for protecting your account.
+* *Mobile phone* - A valid mobile number is needed for the verification and account recovery process.
+* *Date of birth* - Your date of birth is used as an indicator for the age requirement to create a Booking account.",,IT Factory,712020:ac03dc4b-ffe6-4f35-ba83-41f3c30a3c67,,,,,,,,,PTAG-5,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@80c01f8,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i01aax:,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,6/14/2024 14:04
