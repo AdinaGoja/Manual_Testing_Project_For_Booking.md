@@ -154,26 +154,47 @@ The following elements are needed to be ready before the test execution phase be
 
 Test cases are executed on the created test Cycle summary: **Booking.com Cycle Summary**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here:
+Bugs have been created based on the failed tests. The complete bug reports can be found here: https://github.com/AdinaGoja/Manual_Testing_Project_For_Booking.md/blob/main/BugReport.doc
 
-**(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
 
 The following is a summary of the bugs that have been found
-**(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
+![Screenshot 2024-06-23 204405](https://github.com/AdinaGoja/Manual_Testing_Project_For_Booking.md/assets/161244199/2ddfc957-a97f-4f45-abd5-b591290fc2c7)
+
 
 Full regression testing is needed on the impacted areas after the bugs are fixed and retesting will be done for every functionality that was previously failed.
 
 1.7 Test Completion
 As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team
 
-The traceability matrix was generated and can be found here: **(inserati aici fie o poza cu matricea de trasabilitate din jira, fie linkul catre fiserul excel exportat din jira cu matricea de trasabilitate. Nu uitati sa faceti filtrare dupa type = story)**
+The traceability matrix was generated and can be found here: 
+![Screenshot 2024-06-23 204642](https://github.com/AdinaGoja/Manual_Testing_Project_For_Booking.md/assets/161244199/8b03e371-57eb-4afa-83a2-fda1fdd5db57)
+
 
 Test execution chart was generated and can be found below. 
+![Screenshot 2024-06-23 204856](https://github.com/AdinaGoja/Manual_Testing_Project_For_Booking.md/assets/161244199/9768d721-eea7-4e27-84c5-4366aceabbb2)
 
-**(inserati aici raportul de executie generat din jira din sectiunea de dashboards)**
 
-The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
+The final report shows that a number of 2 tests have failed of a total of 10.
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of **2** total bugs were found, from which the priority is: **none** are high and **none** are medium.
 
-**(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
+<h3>General conclusion of testing</h3>
+Overview of tests:
+<ul>
+  <li>Total tests created: 10</li>
+  <li>Total tests executed: 10</li>
+  <li>Test execution coverage: 100%</li>
+  <li>Bugs found: 2. None of the founded bugs have an impact on the product launching, both of them can be fixed after the app is launched</li>
+</ul>
+
+About 80% of requirements in scope were covered, some functionalities haven`t been tested, like book a hotel or Manage your bookings.
+
+Lessons learned: 
+<ul>
+  <li>Early Involvement of Test Team: Involve the testing team early in the project lifecycle to ensure all requirements are testable and to identify potential issues sooner.</li>
+  <li>Comprehensive Test Planning: Allocate sufficient time for test planning and preparation to cover all functionalities comprehensively.</li>
+  <li>Continuous Integration and Testing: Implement continuous integration and continuous testing practices to identify issues early and often.</li>
+  <li>Effective Communication: Maintain clear and regular communication between development, testing, and business teams to ensure alignment on project goals and status.</li>
+</ul>
+
+
